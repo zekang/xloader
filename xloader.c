@@ -346,7 +346,6 @@ int parse_licence(xloader_license *return_value,uchar *pLicence,int pLicence_len
 			k++;
 		}
 	}
-	//正常应该是256
 	if( m > 980){
 		retval = -3;
 		goto END;
